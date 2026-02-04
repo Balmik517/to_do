@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Will You Be My Valentine?</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="heart-animation">💝</div>
+            <h1 class="title">Will you be my Valentine?</h1>
+            <p class="subtitle">Make a choice...</p>
+            
+            <div class="buttons-container">
+                <button id="yesBtn" class="btn btn-yes">Yes ❤️</button>
+                <button id="noBtn" class="btn btn-no">No 💔</button>
+            </div>
+        </div>
+
+        <!-- Celebration Screen -->
+        <div id="celebration" class="celebration hidden">
+            <div class="confetti"></div>
+            <div class="celebration-content">
+                <div class="celebration-emoji">🎉</div>
+                <h1>Yes! You made an amazing decision!</h1>
+                <p>I'm so happy! Let's make this Valentine's Day unforgettable! 💕</p>
+                <div class="hearts-animation">
+                    <span>💕</span>
+                    <span>💕</span>
+                    <span>💕</span>
+                    <span>💕</span>
+                    <span>💕</span>
+                </div>
+                <button id="resetBtn" class="btn btn-reset">Go Back</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
